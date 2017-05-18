@@ -3,6 +3,11 @@
 A tool for wrapping Paper.js to make it super quick draw using your favorite editor.
 
 
+## Install
+
+    npm install -g watch-paper
+
+
 ## Make it go
 
 Open a browser that draws the drawing, and refreshes when you make changes:
