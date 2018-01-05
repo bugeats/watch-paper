@@ -16,10 +16,14 @@
   },
   "keywords": [
     "Paper.js",
+    "canvas",
     "drawing",
+    "generative",
+    "paper",
+    "paperjs",
+    "vector",
     "watch",
-    "watcher",
-    "vector"
+    "watcher"
   ],
   "author": "Chadwick Dahlquist",
   "license": "MIT",
@@ -29,10 +33,10 @@
   "homepage": "https://github.com/bugeats/watch-paper#readme",
   "dependencies": {
     "express": "^4.16.2",
-    "paper": "^0.11.3"
+    "paper": "^0.11.5"
   },
   "devDependencies": {
-    "eslint": "^3.19.0",
-    "tape": "^4.6.3"
+    "eslint": "^4.14.0",
+    "tape": "^4.8.0"
   }
 }
