@@ -4,7 +4,10 @@
   "description": "Tool wrapping Paper.js to make it super quick draw using your favorite editor",
   "main": "index.js",
   "bin": {
-    "watch-js": "bin/watch-paper.bin.js"
+    "watch-paper": "bin/watch-paper.bin.js"
+  },
+  "engines": {
+    "node" : ">=6.10.3"
   },
   "scripts": {
     "test": "tape lib/**/**/**/*.test.js",
