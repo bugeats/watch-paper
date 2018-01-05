@@ -4,7 +4,7 @@
   "description": "Tool wrapping Paper.js to make it super quick draw using your favorite editor",
   "main": "index.js",
   "bin": {
-      "watch-js": "bin/watch-paper.bin.js"
+    "watch-js": "bin/watch-paper.bin.js"
   },
   "scripts": {
     "test": "tape lib/**/**/**/*.test.js",
@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/bugeats/watch-paper#readme",
   "dependencies": {
+    "express": "^4.16.2",
     "paper": "^0.11.3"
   },
   "devDependencies": {
